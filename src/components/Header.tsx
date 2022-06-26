@@ -7,7 +7,7 @@ const SubMenu = Menu.SubMenu;
 class Header extends Component {
     render() {
         return (
-            <div className='menu-demo'>
+            <div className='menu'>
                 <Menu mode='horizontal' defaultSelectedKeys={['1']}>
                     <MenuItem
                         key='0'
@@ -19,15 +19,16 @@ class Header extends Component {
                                 width: 80,
                                 height: 30,
                                 borderRadius: 2,
-                                background: 'var(--color-fill-3)',
+                                // background: 'var(--color-fill-3)',
                                 cursor: 'text',
                             }}
                         />
                     </MenuItem>
-                    <MenuItem key='1'>Home</MenuItem>
-                    <MenuItem key='2'>Solution</MenuItem>
-                    <MenuItem key='3'>Cloud Service</MenuItem>
-                    <MenuItem key='4'>Cooperation</MenuItem>
+                    <MenuItem key='1'>首页</MenuItem>
+                    <MenuItem key='2'>文章</MenuItem>
+                    <MenuItem key='3'>心情</MenuItem>
+                    <MenuItem key='4'>留言</MenuItem>
+                    <MenuItem key='5'>关于</MenuItem>
                 </Menu>
             </div>
         );
