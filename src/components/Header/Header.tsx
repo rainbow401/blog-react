@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 import Menu from "./Menu/Menu";
-import './Header.scss'
+import './Header.css'
 
 class Header extends Component {
     state = {
