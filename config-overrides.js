@@ -10,12 +10,10 @@ module.exports = {
             style: true, // 样式按需加载,文档里面是true是无效的，需要改为css
         }),
         addLessLoader({
-            lessOptions: {
                 modifyVars: {  // 在less-loader@6 modifyVars 配置被移到 lessOptions 中
-                    "@color-primary-6": "#000"
+                    "@btn-font-weight": "500px"
                 },
-                javascriptEnabled: true
-            }
+                // javascriptEnabled: true
         }),
     ),
 
