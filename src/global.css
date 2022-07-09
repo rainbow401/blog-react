@@ -13,10 +13,11 @@ body {
 }
 
 .header {
+    height: 69px
 }
 
 .main {
-    height: 90%;
+    height: 150vh;
 }
 
 .title {
