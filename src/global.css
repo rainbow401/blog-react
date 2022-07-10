@@ -8,7 +8,7 @@ body {
 }
 
 .App {
-    background: #81dcfe;
+    background: grey;
     height: 200vh;
 }
 
@@ -21,15 +21,16 @@ body {
 }
 
 .title {
+    font-weight: 100;
 
 }
 
-.title-first {
+.first-title {
     font-size: 56px;
     /*font-family: ;*/
 }
 
-.title-second {
-    font-size: 56px;
+.second-title {
+    font-size: 40px;
     /*font-family: ;*/
 }
