@@ -3,6 +3,7 @@ import './App.css';
 
 import Header from "./components/Header";
 import Main from "./components/Main";
+import ArticleList from "./components/ArticleList";
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
         <div className="App">
             <Header></Header>
             <Main></Main>
+            <ArticleList></ArticleList>
         </div>
     );
 }

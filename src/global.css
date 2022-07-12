@@ -8,7 +8,7 @@ body {
 }
 
 .App {
-    background: grey;
+    background: #f4f5f5;
     height: 200vh;
 }
 
@@ -17,7 +17,7 @@ body {
 }
 
 .main {
-    height: 150vh;
+    height: 72vh;
 }
 
 .title {
