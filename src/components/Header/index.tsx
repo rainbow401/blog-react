@@ -13,6 +13,8 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
+import './index.css'
+
 const pages = ['首页', '标签', '留言'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
@@ -40,7 +42,8 @@ const Header = () => {
             <AppBar position="relative" color="primary" className="app-bar">
                 <Container maxWidth="xl">
                     <Toolbar disableGutters>
-                        <AdbIcon sx={{display: {xs: 'none', md: 'flex'}, mr: 1}}/>
+                        <img src={'./WechatIMG79.jpeg'} alt={'sss'} width={50} height={50} className={'logo'}></img>
+                        {/*<AdbIcon sx={{display: {xs: 'none', md: 'flex'}, mr: 1}}/>*/}
                         <Typography
                             variant="h6"
                             noWrap

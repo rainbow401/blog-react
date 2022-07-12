@@ -1,3 +1,6 @@
 .app-bar {
-    height: 10px;
+}
+.logo {
+    border-radius: 5px;
+    margin-right: 10px;
 }
