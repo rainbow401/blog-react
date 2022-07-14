@@ -42,7 +42,7 @@ const Header = () => {
             <AppBar position="relative" color="primary" className="app-bar">
                 <Container maxWidth="xl">
                     <Toolbar disableGutters>
-                        <img src={'./WechatIMG79.jpeg'} alt={'sss'} width={50} height={50} className={'logo'}></img>
+                        {/*<img src={'./WechatIMG79.jpeg'} alt={'sss'} width={50} height={50} className={'logo'}></img>*/}
                         {/*<AdbIcon sx={{display: {xs: 'none', md: 'flex'}, mr: 1}}/>*/}
                         <Typography
                             variant="h6"

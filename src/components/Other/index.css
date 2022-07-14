@@ -1,6 +1,6 @@
-.article-list {
+.other {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    /*width: 300px;*/
+    /*width: 100px;*/
 }

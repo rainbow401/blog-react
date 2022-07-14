@@ -3,3 +3,9 @@
     /*height: 100%;*/
     color: black;
 }
+
+.card-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

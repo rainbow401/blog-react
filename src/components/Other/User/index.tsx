@@ -1,21 +1,22 @@
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-
 import './index.css'
 
-const Article = (e: { title: string, content: string }) => {
+
+const User = ( e: { name: string, detail: string }) => {
     return (
-        <Card sx={{minWidth: 800, minHeight: 200}} className={'card'}>
+        <Card sx={{minWidth: 300, minHeight: 200}} className={'user-card'}>
             <CardContent>
                 <Typography variant="h6" component="div">
-                    {e.title}
+                    {e.name}
                 </Typography>
                 <Typography sx={{fontSize: 14}} color="text.secondary" gutterBottom>
-                    {e.content}
+                    {e.detail}
                 </Typography>
             </CardContent>
         </Card>
-    );
-};
-export default Article;
+    )
+}
+
+export default User;
